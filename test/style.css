@@ -1,0 +1,12 @@
+#wrapper{
+	width:800px;
+	margin:0 auto;
+}
+.left{
+	margin:0 10px 10px 0;
+	float:left;
+}
+.right{
+	margin:0 0 10px 10px;
+	float:right
+}
