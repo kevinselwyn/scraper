@@ -7,14 +7,16 @@ Scraper is a Javascript plugin that will scour a page for all image URLs, both i
 Include the following in the `<head>` of your document:
 
 ```html
-<script type="text/javascript" src="dist/scraper.min.js"></script>
+<script src="scraper.js"></script>
 ```
 
 To initalize the plugin, add the following to your document:
 
 ```html
 <script type="text/javascript">
-	Scraper.init();
+	window.onload = function () {
+		Scraper.init();
+	};
 </script>
 ```
 
