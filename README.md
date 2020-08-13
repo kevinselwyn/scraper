@@ -1,8 +1,8 @@
-#Scraper
+# Scraper
 
 Scraper is a Javascript plugin that will scour a page for all image URLs, both in `<img>` tags and as background images to any type of element.
 
-##Usage
+## Usage
 
 Include the following in the `<head>` of your document:
 
@@ -14,9 +14,9 @@ To initalize the plugin, add the following to your document:
 
 ```html
 <script type="text/javascript">
-	window.onload = function () {
-		Scraper.init();
-	};
+    window.onload = function () {
+        Scraper.init();
+    };
 </script>
 ```
 
@@ -26,7 +26,7 @@ To access the scraped images, access the array variable directly:
 console.log(Scraper.images);
 ```
 
-##Deduplication
+## Deduplication
 
 This plugin offers to deduplicate (the default action) or leave the list of images unaltered. To turn off deduplication, set the `dedupe` variable to `false`:
 
